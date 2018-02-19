@@ -11,6 +11,8 @@ package timetable.tracking.solution;
  */
 public class User {
     
+	
+      // We can have a userType here to tell if user is a teacher or an admin
     
     
 }

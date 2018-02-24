@@ -27,207 +27,217 @@ public class MainGUI extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
+        listYearsP = new javax.swing.JPanel();
+        year1BT = new javax.swing.JButton();
+        year2BT = new javax.swing.JButton();
+        year3BT = new javax.swing.JButton();
+        year4BT = new javax.swing.JButton();
+        classInfoP = new javax.swing.JPanel();
+        tutorNLB = new javax.swing.JLabel();
+        classNLB = new javax.swing.JLabel();
+        nStudentsLB = new javax.swing.JLabel();
+        adminFunctionsP = new javax.swing.JPanel();
+        sStudentBT = new javax.swing.JButton();
+        sStaffBT = new javax.swing.JButton();
+        addStudentBT = new javax.swing.JButton();
+        addStaffBT = new javax.swing.JButton();
+        closeBT = new javax.swing.JButton();
+        listStudentP = new javax.swing.JPanel();
+        listStudentsLB = new javax.swing.JLabel();
 
+        setName("Attendance Tracking Solutions"); // NOI18N
         setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(248, 148, 6));
+        listYearsP.setBackground(new java.awt.Color(248, 148, 6));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton1.setText("Year 1");
+        year1BT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        year1BT.setText("Year 1");
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton2.setText("Year 2");
+        year2BT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        year2BT.setText("Year 2");
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton3.setText("Year 3");
+        year3BT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        year3BT.setText("Year 3");
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton4.setText("Year 4");
+        year4BT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        year4BT.setText("Year 4");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout listYearsPLayout = new javax.swing.GroupLayout(listYearsP);
+        listYearsP.setLayout(listYearsPLayout);
+        listYearsPLayout.setHorizontalGroup(
+            listYearsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(listYearsPLayout.createSequentialGroup()
                 .addGap(23, 23, 23)
-                .addComponent(jButton1)
+                .addComponent(year1BT)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
+                .addComponent(year2BT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton3)
+                .addComponent(year3BT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton4)
+                .addComponent(year4BT)
                 .addContainerGap(547, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+        listYearsPLayout.setVerticalGroup(
+            listYearsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, listYearsPLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4))
+                .addGroup(listYearsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(year1BT)
+                    .addComponent(year2BT)
+                    .addComponent(year3BT)
+                    .addComponent(year4BT))
                 .addGap(27, 27, 27))
         );
 
-        add(jPanel1);
-        jPanel1.setBounds(0, 0, 900, 50);
+        add(listYearsP);
+        listYearsP.setBounds(0, 0, 900, 50);
 
-        jPanel2.setBackground(new java.awt.Color(248, 188, 8));
+        classInfoP.setBackground(new java.awt.Color(248, 188, 8));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setText("Tutor name:");
+        tutorNLB.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        tutorNLB.setText("Tutor name:");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Class name:");
+        classNLB.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        classNLB.setText("Class name:");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setText("No.of Students:");
+        nStudentsLB.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        nStudentsLB.setText("No.of Students:");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout classInfoPLayout = new javax.swing.GroupLayout(classInfoP);
+        classInfoP.setLayout(classInfoPLayout);
+        classInfoPLayout.setHorizontalGroup(
+            classInfoPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(classInfoPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                .addGroup(classInfoPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(tutorNLB)
+                    .addComponent(classNLB)
+                    .addComponent(nStudentsLB))
                 .addContainerGap(110, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        classInfoPLayout.setVerticalGroup(
+            classInfoPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(classInfoPLayout.createSequentialGroup()
                 .addGap(54, 54, 54)
-                .addComponent(jLabel1)
+                .addComponent(tutorNLB)
                 .addGap(28, 28, 28)
-                .addComponent(jLabel2)
+                .addComponent(classNLB)
                 .addGap(31, 31, 31)
-                .addComponent(jLabel3)
+                .addComponent(nStudentsLB)
                 .addContainerGap(246, Short.MAX_VALUE))
         );
 
-        add(jPanel2);
-        jPanel2.setBounds(0, 50, 230, 410);
+        add(classInfoP);
+        classInfoP.setBounds(0, 50, 230, 410);
 
-        jPanel3.setBackground(new java.awt.Color(248, 148, 6));
+        adminFunctionsP.setBackground(new java.awt.Color(248, 148, 6));
 
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton6.setText("Search Student");
+        sStudentBT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        sStudentBT.setText("Search Student");
 
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton7.setText("Search Staff");
+        sStaffBT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        sStaffBT.setText("Search Staff");
 
-        jButton8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton8.setText("Add Student");
+        addStudentBT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        addStudentBT.setText("Add Student");
 
-        jButton9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton9.setText("Add Staff");
+        addStaffBT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        addStaffBT.setText("Add Staff");
 
-        jButton10.setBackground(new java.awt.Color(192, 57, 43));
-        jButton10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton10.setText("Close");
+        closeBT.setBackground(new java.awt.Color(192, 57, 43));
+        closeBT.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        closeBT.setText("Close");
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout adminFunctionsPLayout = new javax.swing.GroupLayout(adminFunctionsP);
+        adminFunctionsP.setLayout(adminFunctionsPLayout);
+        adminFunctionsPLayout.setHorizontalGroup(
+            adminFunctionsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(adminFunctionsPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton6)
+                .addComponent(sStudentBT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton7)
+                .addComponent(sStaffBT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton8)
+                .addComponent(addStudentBT)
                 .addGap(18, 18, 18)
-                .addComponent(jButton9)
+                .addComponent(addStaffBT)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 317, Short.MAX_VALUE)
-                .addComponent(jButton10)
+                .addComponent(closeBT)
                 .addContainerGap())
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+        adminFunctionsPLayout.setVerticalGroup(
+            adminFunctionsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, adminFunctionsPLayout.createSequentialGroup()
                 .addContainerGap(16, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton6)
-                    .addComponent(jButton7)
-                    .addComponent(jButton8)
-                    .addComponent(jButton9)
-                    .addComponent(jButton10))
+                .addGroup(adminFunctionsPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sStudentBT)
+                    .addComponent(sStaffBT)
+                    .addComponent(addStudentBT)
+                    .addComponent(addStaffBT)
+                    .addComponent(closeBT))
                 .addContainerGap())
         );
 
-        add(jPanel3);
-        jPanel3.setBounds(0, 460, 900, 50);
+        add(adminFunctionsP);
+        adminFunctionsP.setBounds(0, 460, 900, 50);
 
-        jPanel4.setBackground(new java.awt.Color(44, 62, 80));
+        listStudentP.setBackground(new java.awt.Color(44, 62, 80));
+        listStudentP.setMinimumSize(new java.awt.Dimension(700, 440));
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("List of Students");
+        listStudentsLB.setBackground(new java.awt.Color(255, 255, 255));
+        listStudentsLB.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        listStudentsLB.setForeground(new java.awt.Color(255, 255, 255));
+        listStudentsLB.setText("List of Students");
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout listStudentPLayout = new javax.swing.GroupLayout(listStudentP);
+        listStudentP.setLayout(listStudentPLayout);
+        listStudentPLayout.setHorizontalGroup(
+            listStudentPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(listStudentPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel4)
-                .addContainerGap(521, Short.MAX_VALUE))
+                .addComponent(listStudentsLB)
+                .addContainerGap(551, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        listStudentPLayout.setVerticalGroup(
+            listStudentPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(listStudentPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel4)
-                .addContainerGap(377, Short.MAX_VALUE))
+                .addComponent(listStudentsLB)
+                .addContainerGap(407, Short.MAX_VALUE))
         );
 
-        add(jPanel4);
-        jPanel4.setBounds(230, 50, 670, 410);
+        add(listStudentP);
+        listStudentP.setBounds(230, 50, 670, 410);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
+    private javax.swing.JButton addStaffBT;
+    private javax.swing.JButton addStudentBT;
+    private javax.swing.JPanel adminFunctionsP;
+    private javax.swing.JPanel classInfoP;
+    private javax.swing.JLabel classNLB;
+    private javax.swing.JButton closeBT;
+    private javax.swing.JPanel listStudentP;
+    private javax.swing.JLabel listStudentsLB;
+    private javax.swing.JPanel listYearsP;
+    private javax.swing.JLabel nStudentsLB;
+    private javax.swing.JButton sStaffBT;
+    private javax.swing.JButton sStudentBT;
+    private javax.swing.JLabel tutorNLB;
+    private javax.swing.JButton year1BT;
+    private javax.swing.JButton year2BT;
+    private javax.swing.JButton year3BT;
+    private javax.swing.JButton year4BT;
     // End of variables declaration//GEN-END:variables
+
+    void pack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void setDefaultCloseOperation(int EXIT_ON_CLOSE) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 
 }

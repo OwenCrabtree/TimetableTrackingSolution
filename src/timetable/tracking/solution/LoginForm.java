@@ -8,7 +8,6 @@ package timetable.tracking.solution;
 import javax.swing.JFrame;
 
 /**
- *
  * @author Bobo
  */
 public class LoginForm extends javax.swing.JFrame {
@@ -210,10 +209,12 @@ public class LoginForm extends javax.swing.JFrame {
         MainGUI newMainGUI = new MainGUI();
         newMainGUI.setVisible(true);
         
+        /*
         newMainGUI.pack();
         
         newMainGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.dispose();
+        */
     }//GEN-LAST:event_loginBTActionPerformed
 
     /**

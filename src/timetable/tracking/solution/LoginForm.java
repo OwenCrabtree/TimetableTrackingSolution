@@ -211,6 +211,9 @@ public class LoginForm extends javax.swing.JFrame {
         
         
         
+        
+        
+        
         MainGUI newMainGUI = new MainGUI();
         newMainGUI.setVisible(true);
         

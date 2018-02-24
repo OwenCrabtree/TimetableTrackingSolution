@@ -207,18 +207,8 @@ public class LoginForm extends javax.swing.JFrame {
     private void loginBTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginBTActionPerformed
         // TODO add your handling code here:
         
-        
-        
-        
-        
-        
-        
-        
         MainGUI newMainGUI = new MainGUI();
         newMainGUI.setVisible(true);
-        
-        
-        
         
         newMainGUI.pack();
         

@@ -9,7 +9,7 @@ package timetable.tracking.solution;
  *
  * @author Bobo
  */
-public class MainGUI extends javax.swing.JPanel {
+public class MainGUI extends javax.swing.JFrame {
 
     /**
      * Creates new form MainGUI
@@ -231,13 +231,6 @@ public class MainGUI extends javax.swing.JPanel {
     private javax.swing.JButton year4BT;
     // End of variables declaration//GEN-END:variables
 
-    void pack() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    void setDefaultCloseOperation(int EXIT_ON_CLOSE) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
+   
 
 }
